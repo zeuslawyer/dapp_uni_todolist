@@ -18,6 +18,7 @@
  *
  */
 
+
 // const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
@@ -72,6 +73,11 @@ module.exports = {
     // network_id: 2111,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
+    development: {
+      host: "127.0.0.1", // local host
+      port: 7545, // ganache RPC server should be running on this
+      network_id: "*" // Match any network id
+    }
   },
 
   // Set default mocha options here, use special reporters etc.
@@ -91,6 +97,12 @@ module.exports = {
       //  },
       //  evmVersion: "byzantium"
       // }
+      solc: {
+        optimizer: {
+          enabled: true,
+          runs: 200
+        }
+      }
     }
   },
 
