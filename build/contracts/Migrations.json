@@ -915,12 +915,21 @@
     "5777": {
       "events": {},
       "links": {},
+<<<<<<< HEAD
       "address": "0xEC9E8f8ae03e969d5898ac8B4F05653A3D278B8A",
       "transactionHash": "0x217a8c505e3a9e897d6f9064a2d2c9840061c02447c1e5fe5479783fe20569c0"
     }
   },
   "schemaVersion": "3.3.4",
   "updatedAt": "2021-03-14T00:52:26.135Z",
+=======
+      "address": "0xB404BE27DBb815b2210BC1bbC7018189CF651c09",
+      "transactionHash": "0xbf02346bef1b114d37135dd65943fcdb794edfe7a54590c4eb5f102512122d5f"
+    }
+  },
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-14T01:51:49.228Z",
+>>>>>>> Update config. Create migration/deployment file.
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
