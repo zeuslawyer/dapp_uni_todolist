@@ -1,4 +1,5 @@
-### TOC
+### Dapp university tute
+[github ref files.](https://github.com/dappuniversity/eth-todo-list)
 
 #### Deployment (aka migration)
 
@@ -25,4 +26,15 @@ Compile and deploy [31:30]
 
 [32:36] Listing out all the tasks (todo items) using the getter func provided by Solidity (provided when a `public` access modifier is specified).
 
-// RESUME AT [34:22]
+
+#### Client side app[35:07] in the `/src` folder
+- [36:00] using `lite-server` to serve the client side html. It is listed in package.json as a dep.
+-  Also for the `index.html` it uses Bootstrap styling and so needs a `bs-config.json` file in the project root to set up configuration for where to serve client side files from, and it also maps vendor files to `node_modules`.
+- fire up lite-server with `npm run dev` (check the package.json)
+- [42:45] What is web3.js and how it relates to Ethereum. Using the Ganache UI to get the key to connect the client browser code to the ethereum blockchain via metamask and web3.
+- [48:10] fetching out the actual contract from the ethereum network
+- [51:01] preparing UI to show the account number and loader elements
+- [53:46] rendering the tasks fetched from the Ethereum network
+
+
+// resume at [53:46] rendering the tasks fetched from the Ethereum network

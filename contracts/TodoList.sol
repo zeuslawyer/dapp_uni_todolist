@@ -8,7 +8,9 @@ contract TodoList {
     // Constructor function gets run to initialize the contract.
     // The constructor gets run on deployment.
     constructor() public {
-        createTask("Your first, default task!");
+        createTask(
+            "This is task #1, the default that is created by the constructor!"
+        );
     }
 
     // model the task data type
