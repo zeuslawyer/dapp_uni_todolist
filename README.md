@@ -4,10 +4,6 @@
 
 `truffle compile` to compile the smart contracts. Will build into the `/build` folder.
 
-# Then `truffle deploy` or `truffle migrate`. Add the `--reset` flag if you want to replace an existing contract [31:43].
-
-`truffle compile` to compile the smart contracts. Will build into the `/build` folder.
-
 Then `truffle deploy` or `truffle migrate`. Add the `--reset` flag if you want to replace an existing contract [31:43].
 
 [19:37] Then run `truffle console` to open up the console, which is an CLI interactive dev tool to interact with the contract.
@@ -28,3 +24,5 @@ Add new function to store new Todo item to blockchain.
 Compile and deploy [31:30]
 
 [32:36] Listing out all the tasks (todo items) using the getter func provided by Solidity (provided when a `public` access modifier is specified).
+
+// RESUME AT [34:22]

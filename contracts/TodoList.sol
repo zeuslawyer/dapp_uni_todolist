@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Todolist {
+contract TodoList {
     // State variable for the Todolist contract.
     // State variables get stored on the blockchain to represent the state of the contract.
     uint256 public taskCount = 0;
